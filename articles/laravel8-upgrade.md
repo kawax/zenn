@@ -132,7 +132,7 @@ CSSが変わったのも使い方が大きく変わったように感じる原�
 https://github.com/laravel/framework/pull/33108
 
 ### パッケージ開発者向け
-`illuminate/support`にcollectionsもmacroableも含まれてるので今まで通り`"^6.0||^7.0||^8.0"`でいい。
+`illuminate/support`にcollectionsもmacroableも含まれてるので今まで通り`"illuminate/support": "^6.0||^7.0||^8.0",`でいい。
 
 ## 終わり
 とにかくJetstreamでなにもかも変わってしまったので「Laravelの普通の使い方」をまた模索していくことに。

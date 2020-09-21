@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/kawax/zenn#readme",
   "dependencies": {
-    "zenn-cli": "^0.1.27"
+    "zenn-cli": "^0.1.31"
   }
 }

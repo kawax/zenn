@@ -55,7 +55,7 @@ php artisan migrate
 ここまででログインしようとしても`Target [Laravel\Fortify\Contracts\LoginViewResponse] is not instantiable.`のエラー。
 解決方法は
 `config/app.php`に`App\Providers\FortifyServiceProvider::class,`追加。
-そのFortifyServiceProviderに`Fortify::viewPrefix('auth.');`追加。
+そのFortifyServiceProvider@bootに`Fortify::viewPrefix('auth.');`追加。
 Jetstreamでインストールすると`Fortify::viewPrefix()`はJetstream内で実行されてるのでなかなか原因が分からなかった。
 https://github.com/laravel/jetstream/blob/3ac0a23814c643b1e4de8168423e5be784081261/src/JetstreamServiceProvider.php#L69
 

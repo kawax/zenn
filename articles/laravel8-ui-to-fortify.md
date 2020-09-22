@@ -1,5 +1,5 @@
 ---
-title: "Laravel8 laravel/uiからlaravel/fortifyに移行は可能"
+title: "Laravel8 laravel\/uiからlaravel\/fortifyに移行は可能"
 emoji: "😷"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Laravel"]

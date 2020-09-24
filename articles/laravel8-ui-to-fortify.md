@@ -130,6 +130,15 @@ JetstreamはLaravel公式が用意したview。
 という所まで分かってくるとJetstreamの立ち位置が分かる。
 Fortifyのためのviewを提供するcomposerパッケージも作れるな。
 
+### 追記：試しに作った
+
+- https://github.com/kawax/fortify-uikit
+- https://github.com/kawax/fortify-bulma
+
+本格的に作るならインストールコマンドでJetstreamと同じようなことをするけどこれはviewPrefix()で指定するviewだけ。
+Fortify::viewPrefix()はパッケージ側で実行せずプロジェクト側のFortifyServiceProviderで指定。
+滅多にないだろうけど複数のパッケージをインストールしたままどれを使うかを選べるように。
+
 ## 不要な機能をオフ
 `config/fortify.php`で使わない機能をオフ。
 

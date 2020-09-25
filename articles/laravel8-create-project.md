@@ -52,7 +52,7 @@ laravel new laravel8
 API用認証が必要ならSanctumを単独でインストールすればいい。
 
 ### 追記
-その後調査が進んでJetstreamなしで作成の場合はlaravel/fortify単体でインストール+独自viewを作る、が良さそう。
+その後調査が進んでJetstreamなしで作成の場合はlaravel/fortify単体でインストール+独自viewを作る、が良さそう。これが一番今まで通りの使い方できる。
 https://zenn.dev/kawax/articles/laravel8-ui-to-fortify
 
 ## laravel/uiは非推奨

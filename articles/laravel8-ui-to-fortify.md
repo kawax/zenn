@@ -134,6 +134,7 @@ Fortifyのためのviewを提供するcomposerパッケージも作れるな。
 
 - https://github.com/kawax/fortify-uikit
 - https://github.com/kawax/fortify-bulma
+- https://github.com/kawax/fortify-bootstrap4
 
 本格的に作るならインストールコマンドでJetstreamと同じようなことをするけどこれはviewPrefix()で指定するviewだけ。
 Fortify::viewPrefix()はパッケージ側で実行せずプロジェクト側のFortifyServiceProviderで指定。

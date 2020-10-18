@@ -1,5 +1,5 @@
 ---
-title: "ajax・トランスパイル・仮想DOM"
+title: "[WIP] ajax・トランスパイル・仮想DOM"
 emoji: "😷"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["JavaScript"]

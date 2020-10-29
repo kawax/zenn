@@ -35,7 +35,7 @@ RUN composer self-update --2
 
 その他。
 GitHub Actionsの`shivammathur/setup-php@v2`は2。
-Travisは何もしなければまだ1。
+Travisは何もしなければまだ1。→2に変わっていた。
 
 ## 速い
 日本からcomposerを使うと遅すぎて使い物にならないのでプラグインやpackagistミラーで高速化してたけど2は十分速いので全部外して良さそう。

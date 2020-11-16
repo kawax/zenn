@@ -9,7 +9,7 @@ published: true
 普段Laravel(PHP)しか使わないのでどれもこんなものだろうと思ってたけど他の言語も含めていろいろなWebアプリケーションフレームワークを調べたらLaravelユーザーから見ると信じられない世界が広がっていた…。
 
 ## 前提
-フレームワークでの標準的な使い方での話。
+フレームワークでの標準的な使い方の話。
 独自に導入する方法は関係ない。
 
 ## Ruby on Rails
@@ -53,6 +53,23 @@ https://revel.github.io/modules/static.html
 
 ## Mojolicious他 / Perl
 なし。
+
+## AdonisJs / node.js
+自分でwebpackをセットアップしようって方針。
+https://adonisjs.com/recipes/4.1/frontend-assets
+
+## Sails / node.js
+アセットパイプライン。
+https://sailsjs.com/documentation/concepts/assets
+
+npmはサーバーサイドで使うからフロントには使わない？
+
+## NestJS / node.js
+静的に提供
+https://docs.nestjs.com/recipes/serve-static
+
+新しめのフレーワークだとさすがにnode.js使ってる人なら分かってる想定でのなし。
+CORSの対応もあるし普通は分離。
 
 ## 終わり
 これ以上探してもなさそうなので調査終了。

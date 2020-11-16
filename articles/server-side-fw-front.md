@@ -67,6 +67,7 @@ npmはサーバーサイドで使うからフロントには使わない？
 ## NestJS / node.js
 静的に提供
 https://docs.nestjs.com/recipes/serve-static
+> In order to serve static content like a Single Page Application (SPA)
 
 新しめのフレーワークだとさすがにnode.js使ってる人なら分かってる想定でのなし。
 CORSの対応もあるし普通は分離。
